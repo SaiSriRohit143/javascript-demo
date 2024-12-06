@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>set intervel demo</h1>
+    <script>
+        //set intervel function 
+        var a = setInterval(function(){alert("Hello")},3000);
+        function stopInterval(){
+            clearInterval(a); //clear intervel
+        }
+    </script>
+    <button type ="button" onclick="stopInterval()">Stop Intervel</button>
+</body>
+</html>

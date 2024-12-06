@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS embeeded in HTML</title>
+</head>
+<body>
+    <h1 style="color: brown ;">java script intoduction</h1>
+    <hr>
+    
+<script>
+    <!-- //javascript code here
+    //javascript is case sensitive -->
+
+    
+    document.writeln("Hello world from javascript");
+    document.writeln("This is a new line");
+    document.writeln("<h2> hello world again from javascript</h2>");
+
+    //js code to add 2 nos
+    var num1,num2,sum;
+
+    //prompt - used to take input from user at runtime
+    name = prompt("enter your name: ");
+    num1 = parseInt(prompt("enter your first number : "));
+    num2 = parseInt(prompt("enter your second number : "));
+
+    sum=num1+num2;
+
+    //prints value in console
+
+    console.log(sum);
+    console.log(name);
+
+    document.write("<br>"+ "hello"+name+"<br>");
+    document.writeln("the addition of 2 number is : "+sum);
+
+    alert("thank you js "+ name);
+    alert(100+300);
+</script>
+</body>
+</html>
